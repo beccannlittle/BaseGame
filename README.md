@@ -18,6 +18,7 @@ Welcome to State Farm's game dev competition at ASU GameCon 2020! To compete, fo
 
 This game runs on the [Phaser](https://github.com/photonstorm/phaser) JavaScript game framework. You can see a running version of this base game [here](https://statefarmasugamecon.github.io/BaseGame/). All credit for the code and art in this base game goes to Emanuele Feronato's [One Tap RPG tutorial](https://www.emanueleferonato.com/2019/02/18/html5-prototype-of-one-tap-rpg-game-built-with-phaser-3-and-matter-js/).
 
+To get started, go to: https://github.com/StateFarmASUGameCon/BaseGame
 
 ## Prerequisites
 * Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
