@@ -27,10 +27,10 @@ This game runs on the [Phaser](https://github.com/photonstorm/phaser) JavaScript
 ## Getting Started
 1. Navigate to https://github.com/StateFarmASUGameCon/BaseGame in your browser.
 1. Click the "Fork" button in the top right corner. Choose your account as the namespace to fork to. After a few seconds you should be redirected to the new repository.
-1. Click the "Settings" button at the top.
+1. Click the "Settings" tab at the top.
 1. Scroll down to the "GitHub Pages" section.
 1. For "Source", select "Master Branch". The page will then save and refresh.
-1. Scroll back down to the "GitHub Pages" section, and click the link where the site is published to and verify the base game is playable.
+1. Scroll back down to the "GitHub Pages" section, and click the link where the site is published to and verify the base game is playable. It could take a minute or two for the game to publish and be playable.  If you still get a 404, try clearing your cache and reloading the page.  If it still doesn't work after that, go back to the GitHub Pages settings, and switch the source to "None", and then back to "Master Branch".  
 1. Scroll back up to the top of the page and click the "Code" button to go back to the home page of the repository.
 
 ## Local Project Setup
@@ -43,8 +43,8 @@ This game runs on the [Phaser](https://github.com/photonstorm/phaser) JavaScript
 
 ## View game locally
 1. Open the folder containing the code within Visual Studio Code.
-1. Open the `index.html` file.
-1. Click "Go Live" at the bottom.
+1. Click the `index.html` file.
+1. Click "Go Live" at the bottom of the Visual Studio Code window.
 1. Your game should now appear in your browser.
 
 ## Submission Instructions
@@ -52,11 +52,11 @@ This game runs on the [Phaser](https://github.com/photonstorm/phaser) JavaScript
 1. Verify your changes have been pushed by going to the home page of your repository, and clicking the "environment" button.
 1. Click "View Deployment".
 1. Verify the game looks correct, then copy the url for the page.
-1. Navigate to the original game you forked from. https://github.com/StateFarmASUGameCon/BaseGame
-1. Click the "Issues" button at the top.
+1. Navigate to the **original game** you forked from. https://github.com/StateFarmASUGameCon/BaseGame
+1. Click the "Issues" tab below your project, not the one at the very top.
 1. Create a "New Issue".
 1. Click "Get Started" next to "Game Submission".
-1. Provide the name of your game, the link you copied, and a link to your repository.
+1. Provide the name of your game as the title (feel free to be creative), the link you copied, and a link to your repository.
 1. Submit the issue, and pay attention to notifications on your issue as this is how we will contact the winner.
 1. Submission cutoff is 7:30, and we plan on announcing the winner by 8:00.
 
