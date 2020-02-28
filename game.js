@@ -1,7 +1,7 @@
 let game;
 
 let gameOptions = {
-  gravity: 1,
+  gravity: 10,
   maxItemsPerLevel: 30,
   maxIterations: 10,
   minItemsDistance: 160
@@ -10,6 +10,7 @@ let gameOptions = {
 const HERO = 0;
 const COIN = 1;
 const SKULL = 2;
+var score = 0;
 
 window.onload = function() {
   let gameConfig = {
@@ -20,7 +21,7 @@ window.onload = function() {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH,
       parent: "thegame",
-      width: 750,
+      width: 250,
       height: 1334
     },
     
@@ -40,8 +41,10 @@ window.onload = function() {
   window.focus();
   
 }
+  
+let text;
 
-class playGame extends Phaser.Scene{
+class playGame extends Phaser.Scene {
     
   constructor() {
     super("PlayGame");
@@ -69,6 +72,9 @@ class playGame extends Phaser.Scene{
         case COIN:
           b1.gameObject.visible = false;
           this.matter.world.remove(b1);
+          //if (score == undefined) score = 0;
+          score++;
+          text.setText("Score: " + score);
           break;
           
         case SKULL:
@@ -122,6 +128,9 @@ class playGame extends Phaser.Scene{
         }
       }
     }
+    text = this.add.text(25, 25, "Score: " + score, {
+        font: "50px Arial"
+    });
   }
   
   itemsOverlap(p) {
